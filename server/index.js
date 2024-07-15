@@ -44,7 +44,7 @@ app.post("/addMember", async (req, res) => {
   } catch (error) {
     console.log("Error registering member", error);
     res.status(500).json({
-      message: "Failed to add member",
+      message: "Failed to add a member",
     });
   }
 });
