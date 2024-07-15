@@ -15,7 +15,7 @@ mongoose
     "mongodb+srv://nickwilliamsxx:9pF3W6y2A1tFDzWU@cluster0.0yewz3q.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
   )
   .then(() => {
-    console.log("Connected to the Database MongoDB");
+    console.log("Connected to MongoDB");
   })
   .catch((error) => {
     console.log("Error connecting to MongoDB", error);
